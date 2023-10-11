@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"type": "commonjs",
 	"scripts": {
-		"script": "nodemon index.js"
+		"start": "node index.js"
 	},
 	"author": "",
 	"license": "ISC",
