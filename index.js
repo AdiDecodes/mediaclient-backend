@@ -19,7 +19,7 @@ const ID = process.env.ID;
 const PASS = process.env.PASS;
 const REC = process.env.REC;
 
-app.post('/sendMail', (req, res) => {
+app.post('/', (req, res) => {
 	res.setHeader(
 		'Access-Control-Allow-Origin',
 		'*'
